@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 
 const Header: React.FC = () => {
-  const [isConfigOpen, setIsConfigOpen] = useState(false);
+  // const [isConfigOpen, setIsConfigOpen] = useState(false);
 
   return (
     <nav className="bg-gray-800 text-white p-4 shadow-lg">

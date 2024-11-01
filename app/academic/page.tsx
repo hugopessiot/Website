@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import Header from '../components/header'
 
 const academic_page: React.FC = () => {
-  const [isConfigOpen, setIsConfigOpen] = useState(false);
+  // const [isConfigOpen, setIsConfigOpen] = useState(false);
 
   return (
     <>
