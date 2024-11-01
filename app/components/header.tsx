@@ -4,7 +4,6 @@ import React from 'react';
 import Link from 'next/link';
 
 const Header: React.FC = () => {
-  // const [isConfigOpen, setIsConfigOpen] = useState(false);
 
   return (
     <nav className="bg-gray-800 text-white p-4 shadow-lg">
@@ -14,6 +13,12 @@ const Header: React.FC = () => {
         </Link>
       <Link href="/academic" className="text-xl font-bold hover:bg-gray-700 transition-colors duration-300 rounded-md p-2">
           Academic 
+        </Link>
+      <Link href="/professional" className="text-xl font-bold hover:bg-gray-700 transition-colors duration-300 rounded-md p-2">
+          Professional 
+        </Link>
+      <Link href="/projects" className="text-xl font-bold hover:bg-gray-700 transition-colors duration-300 rounded-md p-2">
+          Projects
         </Link>
       </div>
     </nav>

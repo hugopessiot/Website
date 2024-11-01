@@ -43,3 +43,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 ## change branch
 1. `git checkout branch_name`
 2. update publish commit :  `git push -u origin branch_name`
+3. update a branch : `git merge branch_name`

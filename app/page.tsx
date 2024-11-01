@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './components/header';
+import Footer from './components/footer'
 
 const HomePage: React.FC = () => {
   return (
@@ -11,6 +12,7 @@ const HomePage: React.FC = () => {
           Découvrez notre collection de motos. Utilisez le menu pour naviguer vers la liste des motos ou pour en ajouter une nouvelle.
         </p>
       </div>
+      <Footer />
     </>
   );
 };
