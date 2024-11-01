@@ -39,3 +39,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 1. Add files to repo : `git add .`
 2. Commit : `git commit -m "(insert commit's title)"`
 3. Publish commit : `git push -u origin master`
+
+## change branch
+1. `git checkout branch_name`
+2. update publish commit :  `git push -u origin branch_name`
