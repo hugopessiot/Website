@@ -1,6 +1,6 @@
 "use client"; // Ajoutez ceci pour indiquer que c'est un composant client
 
-import React, { useState } from 'react';
+import React from 'react';
 import Link from 'next/link';
 
 const Header: React.FC = () => {

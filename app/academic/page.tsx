@@ -1,6 +1,6 @@
 "use client"; // Ajoutez ceci pour indiquer que c'est un composant client
 
-import React, { useState } from 'react';
+import React from 'react';
 import Header from '../components/header'
 
 const academic_page: React.FC = () => {
